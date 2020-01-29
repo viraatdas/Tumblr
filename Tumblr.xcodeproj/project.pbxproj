@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		76AF702323E248EE00FDFA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF702223E248EE00FDFA42 /* AppDelegate.swift */; };
-		76AF702523E248EE00FDFA42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF702423E248EE00FDFA42 /* ViewController.swift */; };
 		76AF702823E248EE00FDFA42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AF702623E248EE00FDFA42 /* Main.storyboard */; };
 		76AF702A23E248F100FDFA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AF702923E248F100FDFA42 /* Assets.xcassets */; };
 		76AF702D23E248F100FDFA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AF702B23E248F100FDFA42 /* LaunchScreen.storyboard */; };
 		76AF703823E248F100FDFA42 /* TumblrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF703723E248F100FDFA42 /* TumblrTests.swift */; };
 		76AF704323E248F100FDFA42 /* TumblrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF704223E248F100FDFA42 /* TumblrUITests.swift */; };
+		76AF705123E2499E00FDFA42 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF705023E2499E00FDFA42 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		76AF701F23E248EE00FDFA42 /* Tumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF702223E248EE00FDFA42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76AF702423E248EE00FDFA42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		76AF702723E248EE00FDFA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76AF702923E248F100FDFA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76AF702C23E248F100FDFA42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		76AF703E23E248F100FDFA42 /* TumblrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AF704223E248F100FDFA42 /* TumblrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblrUITests.swift; sourceTree = "<group>"; };
 		76AF704423E248F100FDFA42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AF705023E2499E00FDFA42 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		76AF702123E248EE00FDFA42 /* Tumblr */ = {
 			isa = PBXGroup;
 			children = (
+				76AF705023E2499E00FDFA42 /* PhotosViewController.swift */,
 				76AF702223E248EE00FDFA42 /* AppDelegate.swift */,
-				76AF702423E248EE00FDFA42 /* ViewController.swift */,
 				76AF702623E248EE00FDFA42 /* Main.storyboard */,
 				76AF702923E248F100FDFA42 /* Assets.xcassets */,
 				76AF702B23E248F100FDFA42 /* LaunchScreen.storyboard */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76AF702523E248EE00FDFA42 /* ViewController.swift in Sources */,
 				76AF702323E248EE00FDFA42 /* AppDelegate.swift in Sources */,
+				76AF705123E2499E00FDFA42 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
